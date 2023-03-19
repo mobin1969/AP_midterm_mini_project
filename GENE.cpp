@@ -1,4 +1,3 @@
-
 char find_complement (char ch) {
     if (ch == 'A')
         return 'T';
@@ -15,10 +14,10 @@ private:
     string RNA;
     string DNA[2];
 public:
-    GENE (string rna) {
+    GENE (string rna, dna) {
         RNA = rna;
-        DNA[0] = rna;
-        DNA[1] = complement (rna);
+        DNA[0] = dna;
+        DNA[1] = complement (dna);
     }
 
     string complement (string s) {
