@@ -1,2 +1,2 @@
-# GENE-and-ANIMAL
+# MID_PROJECT
 mid term project
